@@ -1,0 +1,38 @@
+﻿As A/AN,I want to,So that,Acceptance Criteria
+Admin,Create a new employee profile,Employees can access the system,Show employee registration form and show notification of success after saving.
+,Update customer  type,If a customer completes any milestone as per company policy i can change their type as New/ Regular/ VIP etc,Show customer type updated message.
+,View all Users information,See all my users including customers and employees,Show a user list table with update and delete buttons.
+,Update user information,If any user is having trouble in updating their information which is changed i can change it,Show editable fields and success message after saving changes.
+,Delete any user from database,The user cannot access the system anymore,Show a confirmation popup message before deletion.
+,View all Log in history,I can track the users,Show a log in list table.
+,View all existing cars,I can monitor my warehouse,Show a car list table showing all my existing cars in the system.
+,Add a new car information,Customer can see available cars,Show car entry form; required fields must be filled; show notification of success.
+,Update car information,Car details stay accurate,Show updated car list table with edit option.
+,Remove a car,The car is no more available,Show confirmation popup.
+,View all orders,I can monitor customer activity and their requirements,Show order list table.
+,Approve an order,"The customer can complete an order and get the product ",Show order list with status updated to “Approved”.
+,Reject an order,Customer is informed that the order cannot procees,Show order list with status changed to “Rejected”.
+,View all payments,I can verify transaction completion,Show payment list table .
+,View all feedbacks,I can monitor customer satisfaction,Show feedback table including rating and comment.
+,,,
+Employee,Login with my username and password,The system can recognize me,"After successful login, my associated data should be accessible."
+,View my profile details,I can see my personal informations,Show information list table and edit profile button.
+,Edit my profile,My profile stays accurate,Show editable fields and success message after update.
+,View pending orders with payment status,I can proccess customer requests,Show pending order list with details (car + customer + payment info).
+,Approve an order,The customer can proceed,Show order list with status updated to “Approved”.
+,Reject an order,Customer is notified that order is rejected,Show order list with status updated to “Rejected”.
+,,,
+Customer,"Create a new customer profile ",I can access the system,Show registration form and success message after account creation.
+,Log in with my account,The system can authenticate me,My associated data should be accessible.
+,View my profile details,I can see my personal information,Show my information including edit profile button.
+,Edit my profile,My profile stays accurate,Show editable fields and success message after update.
+,View available cars,I can choose a car to purchase,"Show car list with image, specific specifications, and view button."
+,View car details,I can check full specifications,Show car details window with order button.
+,Place an order,I can purchase a car,Show order list with new order added as “Pending”.
+,Track my previous orders,I can see the progress of my order,Show order list with real-time status (Pending/Approved/Rejected).
+,Cancel my pending orders,I can change my decision,Show order list with cancel button only for pending orders and update status.
+,Make a payment of my pending order,My order can be confirmed,Show payment form.
+,Give Feedback,I can share my experience,Feedback option appears only when order status is “Successful”. And show success message after submitting.
+,,,
+,,,
+,,,
